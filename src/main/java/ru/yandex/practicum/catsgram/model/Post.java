@@ -6,9 +6,9 @@ import java.time.Instant;
 
 @Data
 public class Post {
-    Long id;
-    long authorId;
-    String description;
-    Instant postDate;
+    private Long id;
+    private long authorId;
+    private String description;
+    private Instant postDate;
 
 }
